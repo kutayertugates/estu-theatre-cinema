@@ -1,4 +1,4 @@
-<!-- home.php -->
+<!-- management.php -->
 <!DOCTYPE html>
 <html lang="en">
 

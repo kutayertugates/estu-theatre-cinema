@@ -19,7 +19,15 @@ class Route
                 $controller = new $controllerName;
 
                 if (method_exists($controller, $methodName)) {
-                    $controller->$methodName();
+                    $params = array_slice($parts, 2);
+                
+                    if (!empty($params)) {
+                        call_user_func_array([$controller, $methodName], $params);
+                    } else {
+                        $controller->$methodName();
+                    }
+                } else {
+                    echo "Hata: `$methodName` metodu bulunamadı.";
                 }             
             } 
             

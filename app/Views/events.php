@@ -1,4 +1,4 @@
-<!-- home.php -->
+<!-- events.php -->
 <!DOCTYPE html>
 <html lang="en">
 

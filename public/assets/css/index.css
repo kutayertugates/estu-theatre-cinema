@@ -1,8 +1,8 @@
-header {
+.myback {
     background-color: #8C373E;
 }
 
-header > div {
+.mybackinside {
     color: #fff;
     text-align: center;
 }

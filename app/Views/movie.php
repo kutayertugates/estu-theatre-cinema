@@ -1,4 +1,4 @@
-<!-- home.php -->
+<!-- movie.php -->
 <!DOCTYPE html>
 <html lang="en">
 
