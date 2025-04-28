@@ -1,0 +1,106 @@
+
+
+
+a {
+	text-decoration: none !important;
+}
+a:hover {
+	text-decoration: underline !important;
+}
+
+.errors {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	max-width: 50%;
+	z-index: 100;
+}
+
+/* ######################### */
+/* ######## NAVBAR ######### */
+/* ######################### */
+.logo {
+	height: 45px !important;
+}
+
+#leftMenuOffcanvas , #navbarUserToggleMenu {
+	width: 80% !important;
+}
+#leftMenuOffcanvas * {
+	color: #fff;
+}
+
+.nav-dropdown {
+	border-radius: 10px;
+	background-color: #151515;
+	margin-bottom: 8px;
+}
+
+.nav-dropdown > .btn-group {
+	width: 100%;
+}
+
+.nav-dropdown-link {
+	text-align: left;
+}
+.nav-dropdown-link:hover , .nav-dropdown-menu a:hover {
+	text-decoration: none !important;
+}
+.nav-dropdown-link span {
+	 font-size: 20px !important;
+	 margin-right: 5px;
+}
+.nav-dropdown-link, .nav-dropdown-split {
+	color: #fff;
+}
+
+.nav-dropdown-menu {
+	padding-left: 20px;
+}
+
+#navbarSearchModal { background: none; }
+#navbarSearchModal li { border: none; }
+#navbarSearchModal .modal-content {
+	background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.navbar-user-pp { height: 40px; }
+
+@media only screen and (min-width: 768px) {
+	#leftMenuOffcanvas , #navbarUserToggleMenu {
+		width: 25% !important;
+	}
+}
+/* ######################### */
+/* ######## NAVBAR ######### */
+/* ######################### */
+
+
+
+
+/* ######################### */
+/* ###### VIDEO CARD ####### */
+/* ######################### */
+.video-card a {
+	color: #adb6bd;
+}
+
+.video-card , .video-card img, 
+.aside-video , .aside-video img 
+{
+	border: 0;
+	border-radius: 0;
+}
+
+.video-card-info * {
+	font-size: 14px;
+}
+
+.video-card .card-body,
+.aside-video .card-body
+{
+	padding: 10px 0px;
+}
+/* ######################### */
+/* ###### VIDEO CARD ####### */
+/* ######################### */
