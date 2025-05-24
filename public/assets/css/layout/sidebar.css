@@ -1,0 +1,75 @@
+aside.sidebar {
+    position: fixed;
+    left: 0%;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    max-width: 70%;
+    padding: 10px 15px;
+    background-color: #883434;
+    color: #fff !important;
+    transition: left 0.3s ease;
+    z-index: 999;
+
+    overflow-y: scroll;
+}
+aside.sidebar.hidden {
+    transition: left 0.3s ease;
+    left: -100%;
+}
+@media only screen and (min-width: 768px) {
+	aside.sidebar {
+        width: 30%;
+        max-width: 30%;
+    }
+}
+@media only screen and (min-width: 992px) {
+	aside.sidebar {
+        width: 25%;
+        max-width: 25%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+	aside.sidebar {
+        width: 20%;
+        max-width: 20%;
+    }
+}
+
+aside.sidebar * {
+    color: #fff !important;
+}
+
+aside.sidebar .logo {
+    height: 50px;
+}
+
+aside.sidebar .sidebar__menu .sidebar__menu__item .nav-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+aside.sidebar .sidebar__menu .nav-item .nav-link {
+    padding: 12px 17px;
+}
+aside.sidebar .sidebar__menu .nav-item .nav-link:hover {
+    background-color: #b54545;
+}
+
+
+aside.sidebar .sidebar__menu .sidebar__menu__title .nav-link {
+    padding: 10px 0px;
+    font-weight: bold;
+}
+aside.sidebar .sidebar__menu .sidebar__menu__title .nav-link:hover {
+    background-color: #883434;
+}
+
+
+aside.sidebar .sidebar__menu__dropicon {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+aside.sidebar .sidebar__menu__dropmenu {
+    padding-left: 25px;
+}

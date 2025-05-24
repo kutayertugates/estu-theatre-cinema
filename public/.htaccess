@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Gerçek dosya ya da klasörse dokunma
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Diğer her şeyi index.php'ye gönder
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>
